@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+
+:root {
+  --VeryDarkBlue: hsl(243, 87%, 12%);
+  --DesaturatedBlue: hsl(238, 22%, 44%);
+  --BrightBlue: hsl(224, 93%, 58%);
+  --ModerateCyan: hsl(170, 45%, 43%);
+  --LightGrayishBlue: hsl(240, 75%, 98%);
+  --LightGray: hsl(0, 0%, 75%);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 20px 10px;
+  
+  
+}
+
+nav div a {
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+h1,
+a {
+  font-family: "Raleway", sans-serif;
+ 
+}
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+p, a{
+    color:var(--DesaturatedBlue)
+}
+
+.first-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.first-container-text {
+  /* font-weight: 400; */
+  width: 500px;
+}
+
+.first-container-text h1 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.first-container-text p {
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 20px;
+}
+
+.first-container-text input {
+  width: 200px;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.first-container-text button {
+  background-color: var(--BrightBlue);
+  color: var(--LightGray);
+  width: 140px;
+  padding: 5px;
+}
+.first-container-img img {
+  width: 500px;
+}
+.background-image{
+    background-image:url(./images/bg-curve-desktop.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+   
+}
+
+.second-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.second-container-imgbox img{
+    width:400px;
+}
+.second-container-text{
+  width: 500px;
+}
+.second-container-text h1,p,a{
+  padding: 10px;
+}
+.second-container-text a{
+  color:var(--ModerateCyan);
+}
+
+.Testimonial{
+  padding: 20px;
+  box-shadow: 5px 10px 18px 1px rgba(120,114,114,0.79);
+  margin-top: 40px;
+  background-color: var( --LightGrayishBlue);
+  border-radius: 10px;
+}
+
+.box{
+  display: flex;
+  gap:15px;
+  align-items: center;
+  margin-top:10px;
+}
+.box img{
+  border-radius: 50%;
+  width:70px;
+  height:70px;
+}
+
+.box p{
+  text-align: start;
+}
+.third-container-bgcolor{
+  background-color: var(--DesaturatedBlue);
+}
+
+.third-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1024px;
+  margin: 0 auto;
+  /* background-color: var(--DesaturatedBlue); */
+  color: var(--LightGray);
+  padding: 50px;
+}
+
+.third-container p, h3{
+  color:var(--LightGrayishBlue);
+}
+.third-container-text{
+  width: 500px;
+ 
+}
+.input-flex{
+  display: flex;
+  flex-direction:column;
+  align-content: center;
+}
+.third-container input {
+  width: 300px;
+  padding: 8px;
+  margin-bottom: 5px;
+
+}
+
+.third-container button{
+  background-color: var(--BrightBlue);
+  border-color:var(--BrightBlue) ;
+  color:var(--LightGrayishBlue);
+  width: 140px;
+  padding: 6px;
+} 
+
+.footer-background-color{
+  background-color: var(--VeryDarkBlue);
+  color: var(--LightGrayishBlue);
+}
+
+.footer-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.footer-container p{
+  color: var(--LightGrayishBlue);
+
+}
